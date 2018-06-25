@@ -69,7 +69,7 @@ Application starts an embedded tomcat server on localhost port 8092
 | HTTP METHOD | PATH | USAGE |
 | -----------| ------ | ------ |
 | POST | /account/create | with Account object as JSON creates a new account | 
-| POST | /transfer/money | with Transection object as JSON to perform transaction between two accounts | 
+| POST | /transfer/money | with Transaction object as JSON to perform transaction between two accounts | 
 
 ### Http Status
 - 200 OK: The request has succeeded
